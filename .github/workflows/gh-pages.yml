@@ -1,0 +1,33 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      # Set a branch to deploy
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # Fetch Hugo themes (true OR recursive)
+          submodules: true
+          # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --gc --minify --cleanDestinationDir
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.HUGO_TOKEN }}
+          publish_dir: ./public
