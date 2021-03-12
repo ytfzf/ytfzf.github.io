@@ -3,7 +3,7 @@
 ## Homepage
 title = "YTfzf"
 titleSeparator = "|"
-titleAddition = "YouTube media streamer"
+titleAddition = "Play and download YouTube videos"
 description = "A POSIX script that helps you find YouTube videos (without API) and opens/downloads them using mpv/youtube-dl."
 
 ## Open Graph + Twitter Cards
