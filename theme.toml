@@ -1,7 +1,7 @@
-name = "Doks"
-license = "MIT"
+name = "YTfzf"
+license = "GPLv3"
 licenselink = "https://github.com/h-enk/doks/blob/master/LICENSE"
-description = "Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+description = "A POSIX script that helps you find Youtube videos (without API) and opens/downloads them using mpv/youtube-dl."
 homepage = "https://getdoks.org/"
 tags = ["landing page", "documentation", "blog", "minimal", "modern", "customizable", "search", "dark mode", "bootstrap"]
 features = ["security aware", "fast by default", "seo-ready", "development tools", "bootstrap framework", "netlify-ready", "full text search", "page layouts", "dark mode"]
