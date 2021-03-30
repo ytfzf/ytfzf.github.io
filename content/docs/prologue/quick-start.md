@@ -13,48 +13,32 @@ weight: 110
 toc: true
 ---
 
-## Requirements
+## Examples
++  Search with Thumbnails
 
-Doks uses npm to install dependencies and run commands. Installing npm is pretty simple. Download and install [Node.js](https://nodejs.org/) (it includes npm) for your platform.
+	> Find and watch videos with thumbnail previews
 
-## Start a new Doks project
+       ytfzf -t <query>
 
-Create a new site, change directories, install dependencies, and start development server.
+	> Show all subscriptions with thumbnails (latest 10)
 
-### Create a new site
+       ytfzf -St
 
-{{< btn-copy text="git clone https://github.com/h-enk/doks.git my-doks-site" >}}
++  You can use multiple options together, here are some examples
 
-```bash
-git clone https://github.com/h-enk/doks.git my-doks-site
-```
+	- Stream audio (music), and prompt as the music finishes
 
-### Change directories
+		  ytfzf -ml <query>
 
-{{< btn-copy text="cd my-doks-site" >}}
+	- Download a video from your history
 
-```bash
-cd my-doks-site
-```
+	      ytfzf -dH
 
-### Install dependencies
+	- Open using external menu in a certain format
 
-{{< btn-copy text="npm install" >}}
+	 	  ytfzf -fD
 
-```bash
-npm install
-```
++ _If you started watching a video and you wish to change format then
+first hit Q to save position and quit mpv, then choose your format using_
 
-### Start development server
-
-{{< btn-copy text="npm run start" >}}
-
-```bash
-npm run start
-```
-
-Doks will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
-
-## Other commands
-
-Doks comes with commands for common tasks. [Commands →]({{< ref "commands" >}})
+	  ytfzf -faH
