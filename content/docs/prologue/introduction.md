@@ -13,46 +13,74 @@ weight: 100
 toc: true
 ---
 
-## Get started
+<p align="center">
+    <a> <img src=.assets/logo.png></a>
+    <br />
+    <br />
+	<a href="https://github.com/pystardust/ytfzf/stargazers"><img src="https://img.shields.io/github/stars/pystardust/ytfzf?color=orange&logo=github&style=flat-square"></a>
+	<a href="https://github.com/pystardust/ytfzf/graphs/contributors"><img src="https://img.shields.io/github/contributors/pystardust/ytfzf?style=flat-square"></a>
+	<a href="https://github.com/pystardust/ytfzf/releases/tag/v1.0.0"><img src="https://img.shields.io/github/v/tag/pystardust/ytfzf?style=flat-square"> </a>
+	<a href="https://github.com/pystardust/ytfzf/commits/master"><img src="https://img.shields.io/github/commit-activity/m/pystardust/ytfzf?color=green&style=flat-square"></a>
+	<a href="https://discord.gg/TM4xy6J3"><img src="https://img.shields.io/discord/815609275644117022?color=yellow&logo=discord&style=flat-square" alt="Discord"></a>
+    <br />
+    <br />
+    <i>A POSIX script that helps you find Youtube videos (without API) and opens/downloads them using mpv/youtube-dl</i>
+	<hr>
+</p>
 
-There are two main ways to get started with Doks:
+<h1 align="center">
+	This is a little showcase
+</h1>
+<p align="center">
+<img src=.assets/ytfzf.gif width="100%">
+</p>
 
-### Tutorial
+## Fast installation
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." >}}
+_This one-line installation does not support every OS, detail information for different OS can be found in the [here](docs/INSTALL.md)_
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+```sh
+curl -sL "https://raw.githubusercontent.com/pystardust/ytfzf/master/ytfzf" | sudo tee /usr/bin/ytfzf >/dev/null && sudo chmod 755 /usr/bin/ytfzf
+```
+<sup>*requires cURL</sup>
 
-### Quick Start
+## Table of Contents
 
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." >}}
+- [`Dependencies`](docs/INSTALL.md/#Dependencies)
+- [`Installation`](docs/INSTALL.md/#Installation-Options)
+- [`Usage Instruction`](docs/USAGE.md/#Usage-Instructions)
+- [`Configurations`](docs/USAGE.md/#Configurations)
+- [`Subscriptions`](docs/USAGE.md/#Subscriptions)
+- [`Update Log`](#Update-Log)
+- [`Examples`](#Examples)
+- [`Todo`](#Todo)
+- [`Bugs`](#Bugs)
 
-One page summary of how to start a new Doks project. [Quick Start →]({{< ref "quick-start" >}})
+## Features
+- Subscriptions
+- Thumbnails
+- History
+- Download
+- Format selection
+- Queue multiple videos
 
-## Go further
+## Update-Log
 
-Recipes, Reference Guides, Extensions, and Showcase.
+* We have now added Subscriptions which allows you to search between videos of subscribed channels easily
+* Now ytfzf can queue videos using fzf multiselect option. Press tab to select a video. All the videos will be lined up in mpv. Use `>` and `<` to traverse them.
+* Make continuous queries with `-s`
+* You can preview video thumbnails now! Using Ueberzug. Inspired by [`fontpreview-ueberzug`](https://github.com/OliverLew/fontpreview-ueberzug).
+* Stdin can be taken by using `ytfzf -`, for both fzf and external menu.
+* Added MacOS support
 
-### Recipes
+## Todo
 
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+* [ ] Playlists
+* [ ] More sites
+* [x] Subscriptions
+* [x] Thumbnails
 
-### Reference Guides
+## Bugs
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
-
-### Extensions
-
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/add-google-fonts/)
-
-### Showcase
-
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/parietal-numerics-documentation/)
-
-## Contributing
-
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
-
-Get help on Doks. [Help →]({{< ref "how-to-update" >}})
+* _dwm with swallow patch: Images don't render when looped (ie, option -l)_
+- _If thumbnails are not working `.Xauthority` might be causing it. Try deleting `.Xauthority` and relogging._
