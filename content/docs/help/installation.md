@@ -25,7 +25,7 @@ _Fzf is optional, you can use an external menu (like dmenu) with the `-D` option
 
 > Thumbnails only work with `fzf` and `Ueberzug` as of now.
 
-+ #### Arch based
+### Arch based
 
 	  sudo pacman -S jq mpv youtube-dl fzf
 
@@ -33,7 +33,7 @@ _Fzf is optional, you can use an external menu (like dmenu) with the `-D` option
 
 	  sudo pacman -S ueberzug
 
-+ #### Debian based
+### Debian based
 
 	  sudo apt install jq mpv youtube-dl fzf
 
@@ -43,7 +43,7 @@ _Fzf is optional, you can use an external menu (like dmenu) with the `-D` option
 
 	_Note youtube-dl is usually outdated in debian repos, I suggest getting it from  [youtube-dl github](https://github.com/ytdl-org/youtube-dl)_
 
-+ #### MacOS
+### MacOS
 
 	  brew install jq mpv youtube-dl fzf
 
@@ -53,7 +53,7 @@ _Fzf is optional, you can use an external menu (like dmenu) with the `-D` option
 ## Installation-Options
 
 
-1. #### Installation by direct download
+### Installation by direct download
 
 	```sh
 	curl -sL "https://raw.githubusercontent.com/pystardust/ytfzf/master/ytfzf" | sudo tee /usr/bin/ytfzf >/dev/null && sudo chmod 755 /usr/bin/ytfzf
@@ -61,7 +61,7 @@ _Fzf is optional, you can use an external menu (like dmenu) with the `-D` option
 
    _MacOS users might need to change their installation path from  `/usr/bin/` to `/usr/local/bin/`_
 
-2. #### Arch users can install ytfzf from the [AUR](https://aur.archlinux.org/packages/ytfzf-git/)
+### Arch users can install ytfzf from the [AUR](https://aur.archlinux.org/packages/ytfzf-git/)
 
 	```
 	yay -S ytfzf-git
@@ -69,7 +69,7 @@ _Fzf is optional, you can use an external menu (like dmenu) with the `-D` option
 	
 	Or alternatively from [@JojiiOfficials](https://github.com/JojiiOfficial) [pacman repository](https://repo.jojii.de)
 
-3. #### Gentoo users can install ytfzf from the [nitratesky](https://github.com/VTimofeenko/nitratesky) overlay
+### Gentoo users can install ytfzf from the [nitratesky](https://github.com/VTimofeenko/nitratesky) overlay
 
 	```
 	eselect repository enable nitratesky
