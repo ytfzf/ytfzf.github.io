@@ -1,7 +1,7 @@
 ---
 title: "Installation"
-description: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
-lead: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
+description: "Installation instructions for various mainstream systems"
+lead: "Installation instructions for various mainstream systems"
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
