@@ -23,6 +23,21 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Check install Hugo
+        run: hugo version
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check for linting errors
+        run: npm test
+
+      - name: Delete temporary directories
+        run: npm run clean
+
+      - name: Build production website
+        run: npm run build
+
       - name: Build
         run: hugo --gc --minify --cleanDestinationDir
 
