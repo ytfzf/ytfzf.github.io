@@ -3,10 +3,4 @@ mpv youtube-dl jq - to parse json fzf (Optional) - for menu ueberzug (Optional) 
 Arch based sudo pacman -S jq mpv youtube-dl fzf
 For thumbnails
 sudo pacman -S ueberzug
-Debian based sudo apt install jq mpv youtube-dl fzf</description></item><item><title>Troubleshooting</title><link>/docs/help/troubleshooting/</link><pubDate>Thu, 12 Nov 2020 15:22:20 +0100</pubDate><guid>/docs/help/troubleshooting/</guid><description>Problems updating npm packages Delete the ./node_modules folder, and run again:
-npm install Problems with cache Delete the temporary directories:
-npm run clean</description></item><item><title>FAQ</title><link>/docs/help/faq/</link><pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate><guid>/docs/help/faq/</guid><description>Hyas? Doks is a Hyas theme build by the creator of Hyas.
-Footer notice? Please keep it in place.
-Keyboard shortcuts for search? focus: / select: ↓ and ↑ open: Enter close: Esc Other documentation? Netlify Hugo Can I get support? Create a topic:
-Netlify Community Hugo Forums Contact the creator? Send h-enk a message:
-Netlify Community Hugo Forums</description></item></channel></rss>
+Debian based sudo apt install jq mpv youtube-dl fzf</description></item></channel></rss>
