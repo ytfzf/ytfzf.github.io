@@ -39,10 +39,10 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - name: Build
+      - name: Build Site
         run: hugo --gc --minify --cleanDestinationDir
 
-      - name: Deploy
+      - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.HUGO_TOKEN }}
