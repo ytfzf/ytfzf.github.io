@@ -1,1 +1,1 @@
-# Main repo: [github.com/ytfzf](https://github.com/ytfzf/ytfzf.github.io)
+# Website for: [ytfzf](https://github.com/pystardust/ytfzf)
