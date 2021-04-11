@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Help on</title><link>/docs/help/</link><description>Recent content in Help on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate><atom:link href="/docs/help/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>/docs/help/installation/</link><pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate><guid>/docs/help/installation/</guid><description>Dependencies Fzf is optional, you can use an external menu (like dmenu) with the -D option (no thumbnail support).
+mpv youtube-dl jq - to parse json fzf (Optional) - for menu ueberzug (Optional) - for thumbnails Thumbnails only work with fzf and Ueberzug as of now.
+Arch based sudo pacman -S jq mpv youtube-dl fzf
+For thumbnails
+sudo pacman -S ueberzug
+Debian based sudo apt install jq mpv youtube-dl fzf</description></item></channel></rss>
