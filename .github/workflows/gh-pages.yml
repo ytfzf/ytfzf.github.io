@@ -40,7 +40,7 @@ jobs:
       - run: npm run build
 
       - name: Build Site
-        run: hugo --gc --minify --cleanDestinationDir
+        run: hugo --minify
 
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
