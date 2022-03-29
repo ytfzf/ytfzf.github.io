@@ -26,13 +26,13 @@
 
 # Table Of Contents
 
--   [`Dependencies`](#Dependencies)
--   [`Install`](#Install)
--   [`Features`](#Features)
--   [`Examples`](#Examples)
--   [`Todo`](#Todo)
--   [`Bugs`](#Bugs)
--   [`Credits`](#Credits)
+-   [`Dependencies`](#dependencies)
+-   [`Install`](#install)
+-   [`Features`](#features)
+-   [`Examples`](#examples)
+-   [`Todo`](#todo)
+-   [`Bugs`](#bugs)
+-   [`Credits`](#credits)
 
 ---
 
@@ -76,7 +76,7 @@ There are only 2 required dependencies, however the rest require some configurat
 
 **if on `linux` and installed using make on version `2.0` or prior, run `sudo make uninstall-old` first**
 
-1. Install the dependencies listed [above](#Dependencies)
+1. Install the dependencies listed [above](#dependencies)
 2. Run the following commands
 
 ```sh
