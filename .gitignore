@@ -105,3 +105,9 @@ dist
 
 # MacOS artifacts
 .DS_Store
+
+# Local Netlify folder
+.netlify
+
+# Ruby files
+Gemfile.lock
