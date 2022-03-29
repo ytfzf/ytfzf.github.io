@@ -1,5 +1,5 @@
 <p align="center">
-    <a> <img src=.assets/logo.png></a>
+    <a> <img src="https://raw.githubusercontent.com/pystardust/ytfzf/master/.assets/logo.png"></a>
     <br />
     <br />
 	<a href="https://github.com/pystardust/ytfzf/stargazers"><img src="https://img.shields.io/github/stars/pystardust/ytfzf?color=orange&logo=github&style=flat-square"></a>
@@ -19,7 +19,7 @@
 	This is a little showcase
 </h2>
 <p align="center">
-<img src=.assets/ytfzf.gif width="100%">
+<img src="https://github.com/pystardust/ytfzf/raw/master/.assets/ytfzf.gif" width="100%">
 </p>
 
 ---
