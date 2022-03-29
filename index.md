@@ -158,10 +158,10 @@ ytfzf -cO <search>
 
 # Credits
 
-| User          | Contributions                             | Donate                                |
-| :------------ | :---------------------------------------- | :------------------------------------ |
-| Pystardust    | [contributions](credits/pystardust.md)    |                                       |
-| Euro20179     | [contributions](credits/euro20179.md)     | [donate](credits/euro20179.md#Donate) |
-| Simonhughxyz  | [contributions](credits/simonhughxyz.md)  |                                       |
-| Jac-Zac       | [contributions](credits/jac-zac.md)       |                                       |
-| Mudskipper875 | [contributions](credits/mudskipper875.md) |                                       |
+| User          | Contributions                             | Donate                                                                                |
+| :------------ | :---------------------------------------- | :------------------------------------------------------------------------------------ |
+| Pystardust    | [contributions](credits/pystardust.md)    |                                                                                       |
+| Euro20179     | [contributions](credits/euro20179.md)     | [donate](https://github.com/pystardust/ytfzf/blob/master/credits/euro20179.md#Donate) |
+| Simonhughxyz  | [contributions](credits/simonhughxyz.md)  |                                                                                       |
+| Jac-Zac       | [contributions](credits/jac-zac.md)       |                                                                                       |
+| Mudskipper875 | [contributions](credits/mudskipper875.md) |                                                                                       |
