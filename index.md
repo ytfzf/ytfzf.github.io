@@ -160,8 +160,8 @@ ytfzf -cO <search>
 
 | User          | Contributions                             | Donate                                                                                |
 | :------------ | :---------------------------------------- | :------------------------------------------------------------------------------------ |
-| Pystardust    | [contributions](credits/pystardust.md)    |                                                                                       |
-| Euro20179     | [contributions](credits/euro20179.md)     | [donate](https://github.com/pystardust/ytfzf/blob/master/credits/euro20179.md#Donate) |
-| Simonhughxyz  | [contributions](credits/simonhughxyz.md)  |                                                                                       |
-| Jac-Zac       | [contributions](credits/jac-zac.md)       |                                                                                       |
-| Mudskipper875 | [contributions](credits/mudskipper875.md) |                                                                                       |
+| Pystardust    | [contributions](https://github.com/pystardust/ytfzf/blob/master/credits/pystardust.md)    |                                                                                       |
+| Euro20179     | [contributions](https://github.com/pystardust/ytfzf/blob/master/credits/euro20179.md)     | [donate](https://github.com/pystardust/ytfzf/blob/master/credits/euro20179.md#Donate) |
+| Simonhughxyz  | [contributions](https://github.com/pystardust/ytfzf/blob/master/credits/simonhughxyz.md)  |                                                                                       |
+| Jac-Zac       | [contributions](https://github.com/pystardust/ytfzf/blob/master/credits/jac-zac.md)       |                                                                                       |
+| Mudskipper875 | [contributions](https://github.com/pystardust/ytfzf/blob/master/credits/mudskipper875.md) |                                                                                       |
